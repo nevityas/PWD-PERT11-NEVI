@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border: 1px solid #d6d6d6;
+        }
+
+        /* ===== HEADER ===== */
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px; /* Jarak LOGO ke tulisan (versi PAS) */
+            margin-bottom: 10px;
+        }
+
+        #header img {
+            width: 95px;
+            display: block;
+        }
+
+        #header-text {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1.2;
+        }
+
+        #header-text h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        #header-text h3 {
+            margin: 3px 0 0;
+            font-size: 16px;
+        }
+
+        #header-text p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Garis biru */
+        .line {
+            border-top: 3px solid #0a2e74;
+            margin: 15px 0 25px;
+        }
+
+        h3.section-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* ===== FORM ===== */
+        .form-row {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .form-row label {
+            width: 160px;
+            font-weight: bold;
+        }
+
+        .form-row span {
+            margin: 0 10px;
+        }
+
+        .form-row input {
+            width: 60%;
+            padding: 6px;
+            border: 1px solid #a1a1a1;
+        }
+
+        .form-row textarea {
+            width: 60%;
+            height: 70px;
+            padding: 6px;
+            border: 1px solid #a1a1a1;
+        }
+
+        /* ===== BUTTON ===== */
+        .button-group {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 7px 20px;
+            margin: 0 10px;
+            background: #e6e6e6;
+            border: 1px solid #b6b6b6;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #d1d1d1;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div id="header">
+        <img src="Logo-unindra-fix.png" alt="Logo UNINDRA">
+
+        <div id="header-text">
+            <h2>UNIVERSITAS INDRAPRASTA PGRI</h2>
+            <h3>(UNINDRA)</h3>
+            <p>Jl. Nangka No.58 Tanjung Barat - Jaksel</p>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <h3 class="section-title">BIODATA MAHASISWA</h3>
+
+    <!-- FORM -->
+    <div class="form-row">
+        <label>NAMA</label><span>:</span>
+        <input type="text">
+    </div>
+
+    <div class="form-row">
+        <label>ALAMAT</label><span>:</span>
+        <textarea></textarea>
+    </div>
+
+    <div class="form-row">
+        <label>TANGGAL LAHIR</label><span>:</span>
+        <input type="date">
+    </div>
+
+    <div class="form-row">
+        <label>TELP</label><span>:</span>
+        <input type="text">
+    </div>
+
+    <div class="form-row">
+        <label>EMAIL</label><span>:</span>
+        <input type="email">
+    </div>
+
+    <!-- BUTTON -->
+    <div class="button-group">
+        <button>SIMPAN</button>
+        <button>BATAL</button>
+    </div>
+
+</div>
+
+</body>
+</html>
